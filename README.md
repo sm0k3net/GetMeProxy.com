@@ -2,7 +2,7 @@
 Get Me Proxy script
 
 GetMeProxy.com service script includes also modified version of Glype web proxy which can use list of IP addresses from proxy database.
-
+<pre>
 To use script, need to do following steps:
 1. Upload all the files to your host
 2. Import into database 2 .sql scripts ("getmeproxy_payments.sql" and "getmeproxy.sql")
@@ -14,3 +14,4 @@ To use script, need to do following steps:
 8. Add to cron following files to run each 15 minutes: all files from "/config/" directory with time paremeter: */15 * * * *
 9. Add to cron "/config/proxycheck/proxychecker1.php" with time parameter: 55 * * * *
 10. Don't forget to use absolute path in all files within "/config/" directory and "/config/proxycheck/" directory (to run files via cron properly need to use absolute path)
+</pre>
