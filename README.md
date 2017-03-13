@@ -15,3 +15,5 @@ GetMeProxy.com service script includes also modified version of Glype web proxy 
 9. Add to cron "/config/proxycheck/proxychecker1.php" with time parameter: 55 * * * *
 10. Don't forget to use absolute path in all files within "/config/" directory and "/config/proxycheck/" directory (to run files via cron properly need to use absolute path)
 </pre>
+
+Project page: https://getmeproxy.com/
