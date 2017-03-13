@@ -3,7 +3,7 @@ Get Me Proxy script
 
 GetMeProxy.com service script includes also modified version of Glype web proxy which can use list of IP addresses from proxy database.
 <pre>
-To use script, need to do following steps:
+<b>To use script, need to do following steps:</b>
 1. Upload all the files to your host
 2. Import into database 2 .sql scripts ("getmeproxy_payments.sql" and "getmeproxy.sql")
 3. Setup connection with your MySQL database in "inc/conn.php file"
