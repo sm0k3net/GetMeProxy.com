@@ -16,5 +16,9 @@ GetMeProxy.com service script includes also modified version of Glype web proxy 
 10. Don't forget to use absolute path in all files within "/config/" directory and "/config/proxycheck/" directory (to run files via cron properly need to use absolute path)
 </pre>
 
-Project page: https://getmeproxy.com/
-Additional gate for your proxy service/checker you can find here: tools.sm0k3.net/hub/gate1.php // toolssm0k3net.000webhostapp.com/hub/gate1.php
+### Project page: https://getmeproxy.com/
+<pre>
+Additional gate for your proxy service/checker you can find here: 
+tools.sm0k3.net/hub/gate1.php 
+toolssm0k3net.000webhostapp.com/hub/gate1.php
+</pre>
