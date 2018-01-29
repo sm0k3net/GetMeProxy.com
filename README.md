@@ -14,6 +14,14 @@ GetMeProxy.com service script includes also modified version of Glype web proxy 
 8. Add to cron following files to run each 15 minutes: all files from "/config/" directory with time paremeter: */15 * * * *
 9. Add to cron "/config/proxycheck/proxychecker1.php" with time parameter: 55 * * * *
 10. Don't forget to use absolute path in all files within "/config/" directory and "/config/proxycheck/" directory (to run files via cron properly need to use absolute path)
+
+Setting cron jobs:
+*/15 * * * *    /usr/bin/php5 /var/www/getmeproxy/www/config/http.php >/dev/null 2>&1
+*/15 * * * *    /usr/bin/php5 /var/www/getmeproxy/www/config/https.php >/dev/null 2>&1
+55 * * * *      /usr/bin/php5 /var/www/getmeproxy/www/config/proxycheck/proxychecker1.php >/dev/null 2>&1
+*/17 * * * *    /usr/bin/proxychains /usr/bin/php5 /var/www/getmeproxy/www/config/location.php >/dev/null 2>&1
+*/30 * * * *    /usr/sbin/service restart tor >/dev/null 2>&1
+
 </pre>
 
 ### Project page: https://getmeproxy.com/
