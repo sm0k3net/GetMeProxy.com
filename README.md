@@ -17,3 +17,4 @@ GetMeProxy.com service script includes also modified version of Glype web proxy 
 </pre>
 
 Project page: https://getmeproxy.com/
+Additional gate for your proxy service/checker you can find here: tools.sm0k3.net/hub/gate1.php // toolssm0k3net.000webhostapp.com/hub/gate1.php
